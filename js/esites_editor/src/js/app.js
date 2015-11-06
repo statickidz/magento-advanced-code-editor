@@ -12,7 +12,7 @@
     // Configure RequireJS in such a way that it points to an absolute baseUrl
     // Also, prevent some weird errors by disabling the default timeout.
     requirejs.config({
-        baseUrl: '/js/esites_editor/dist/js/vendor',
+        baseUrl: '../../../esites_editor/dist/js/vendor',
         map: {
             '*': {
                 'css': 'require-css/css'
